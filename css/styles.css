@@ -14,7 +14,7 @@
 
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: var(--secondary-color);
   color: #fff;
   line-height: 1.6;
@@ -141,7 +141,7 @@ img {
 
 /* Hero */
 .hero {
-  background: #000 url('../images/header-background.jpg') center center/cover
+  background: #000 url("../images/header-background.jpg") center center/cover
     no-repeat;
   padding: 11.5rem 2rem 8rem;
 }
@@ -286,6 +286,38 @@ img {
 .features__grid-column-right .features__grid-item {
   flex-direction: row-reverse;
   text-align: left;
+}
+
+/* Preview */
+.preview {
+  background: url("../images/video-background.jpg") center center/cover
+    no-repeat;
+}
+
+.preview__container {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.preview__title {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.preview__description {
+  max-width: 600px;
+  margin: 1rem auto 4rem;
+}
+
+.preview__video-wrapper {
+  position: relative;
+}
+
+.preview__video-wrapper img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
 }
 
 /* Media Queries */
