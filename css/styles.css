@@ -14,7 +14,7 @@
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: var(--secondary-color);
   color: #fff;
   line-height: 1.6;
@@ -141,7 +141,7 @@ img {
 
 /* Hero */
 .hero {
-  background: #000 url("../images/header-background.jpg") center center/cover
+  background: #000 url('../images/header-background.jpg') center center/cover
     no-repeat;
   padding: 11.5rem 2rem 8rem;
 }
@@ -290,7 +290,7 @@ img {
 
 /* Preview */
 .preview {
-  background: url("../images/video-background.jpg") center center/cover
+  background: url('../images/video-background.jpg') center center/cover
     no-repeat;
 }
 
@@ -338,7 +338,7 @@ img {
 
 /* Play Button Circle */
 .preview__video-play-button::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -368,7 +368,7 @@ img {
 
 /* Play Button Animation */
 .preview__video-play-button::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -513,7 +513,7 @@ img {
 
 /* Download */
 .download {
-  background: #000 url("../images/download-background.jpg") center center/cover
+  background: #000 url('../images/download-background.jpg') center center/cover
     no-repeat;
   padding: 11.5rem 2rem 8rem;
 }
@@ -593,6 +593,13 @@ img {
   display: flex;
   gap: 1.5rem;
   justify-content: center;
+}
+
+/* Inner Header */
+.inner-header {
+  background: #000 url('../images/header-background.jpg') center center/cover
+    no-repeat;
+  padding: 10rem 2rem 6rem;
 }
 
 /* Media Queries */
